@@ -28,7 +28,7 @@ const Header = () => {
       {/*--------------Right Side------------------*/}
       <div className='md:w-1/2 relative'>
       <img className='w-100  md:absolute bottom-0 h-100 rounded-lg' src={assets.group_workers2} alt="" />
-      
+    
       </div>
     </div>
   )
