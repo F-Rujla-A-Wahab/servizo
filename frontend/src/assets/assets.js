@@ -59,7 +59,9 @@ import banner2 from './banner2.png'
 import banner3 from './banner3.png'
 import verified_icon_1 from './verified_icon_1.png'
 import info_Icon from './info_Icon.png'
-
+import about_og from './about_og.jpg'
+import contact_us_1 from './contact_us_1.png'
+import chamalka_prfle from './chamalka_prfle.jpg'
 
 export  const assets = {
     ACtechcar,
@@ -123,6 +125,9 @@ export  const assets = {
     banner3,
     verified_icon_1,
     info_Icon,
+    about_og,
+    contact_us_1,
+    chamalka_prfle,
 }
 
 export const servicesData=[

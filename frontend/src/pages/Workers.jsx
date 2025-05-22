@@ -29,7 +29,7 @@ applyFilter()
     <div>
      <p className='text-gray-600'>  Browse through the workers by Services.</p>     
      <div className='flex flex-col sm:flex-row items-start gap-5 mt-5'>
-      <div className=' flex flex-col gap-4 text-sm text-gray-600'>
+      <div className=' flex flex-col gap-4 text-sm text-gray-600 m-4'>
         <p onClick={()=> services ===  'AC Technician'? Navigate('/workers') :  Navigate('/workers/AC Technician')} className={`w-[94VW] sm:w-auto pl-3 py-1.5 pr-16 border border-gray-500 rounded transition-all cursor-pointer ${services === "AC Technician" ? " bg-indigo-100 text-black" :" "}`} >AC Technician</p>
         <p onClick={()=> services ===  'Carpenter'? Navigate('/workers') :  Navigate('/workers/Carpenter')} className={`w-[94VW] sm:w-auto pl-3 py-1.5 pr-16 border border-gray-500 rounded transition-all cursor-pointer ${services === "Carpenter" ? " bg-indigo-100 text-black" :" "}`}>Carpenter</p>
         <p onClick={()=> services ===  'Chef'? Navigate('/workers') :  Navigate('/workers/Chef')} className={`w-[94VW] sm:w-auto pl-3 py-1.5 pr-16 border border-gray-500 rounded transition-all cursor-pointer ${services === "Chef" ? " bg-indigo-100 text-black" :" "}`}>Chef</p>

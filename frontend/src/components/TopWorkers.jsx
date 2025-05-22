@@ -18,7 +18,7 @@ const TopWorkers = () => {
 
         <div className='w-full grid grid-cols-5  gap-4 pt-5 gap-y-6 px-3 sm:px-0'>
             {workers.slice(0,10).map((item,index)=>(
-              <div onClick={()=>Navigate(`/appointment/${item._id}`)} className='flex flex-col items-center border border-blue-200 rounded-xl overflow-hidden cursor-pointer hover:translate-y-[-10px]  transition-all duration-500' key={index}   >
+              <div onClick={()=>{Navigate(`/appointment/${item._id}`);scrollTo(0,0)}} className='flex flex-col items-center border border-blue-200 rounded-xl overflow-hidden cursor-pointer hover:translate-y-[-10px]  transition-all duration-500' key={index}   >
               <img className='w-65 h-60 bg-blue-50 object-contain ' src={item.image} alt=""/>
               <div className='p-4 '> 
                   <div className='flex items-center gap-2 text-sm text-center text-green-500'>

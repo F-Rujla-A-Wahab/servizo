@@ -3,19 +3,19 @@ import assets from '../assets/assets'
 
 const Header = () => {
   return (
-    <div className='flex flex-col md:flex-row flex-wrap bg-primary rounded-lg px-6 md:px-10 lg:px-20'>
+    <div className='m-14 flex flex-col md:flex-row flex-wrap bg-primary rounded-lg px-6 md:px-10 lg:px-20'>
 
 
       {/*------------ Left Side -------------------*/}
-      <div className='md:w-1/2 flex flex-col items-start justify-center gap-4p-10 m-auto md:py-[10vw] md:mb-[30px]'>
+      <div className='md:w-1/2 flex flex-col items-start justify-center gap-4 p-1 m-auto md:py-[10vw] md:mb-[30px]'>
 
         <p className='text-3xl md:text-4xl lg:text-5xl text-white font-semibold leading-tight lg:leading-tight'>
             BOOK APPOINTMENT <br/> WITH TRUSTED WORKERS <br/> <br/> 
         </p>
-        <div className='flex flex-col md:flex-row items-center gap-3 text-white text-sm font-light'>
+        <div className='flex flex-col md:flex-row md:items-start md:justify-center items-center gap-3 text-white text-sm font-light'>
             <img className='w-28 rounded-lg'  src={assets.group_profiles2} alt=""/>  <br/> <br/> <br/> <br/>
-            <p className='text-3xl font-medium'>
-                Simply browse through our ex tensive list of trusted workers, <br className='hidden sm:block'/>
+            <p className='text-2xl font-medium text-justify'>
+                Simply browse through our extensive list of trusted workers, <br className='hidden sm:block'/>
                 schedule your household service booking..
             </p>
         </div>
@@ -26,8 +26,8 @@ const Header = () => {
       </div>  
 
       {/*--------------Right Side------------------*/}
-      <div className='md:w-1/2 relative'>
-      <img className='w-100  md:absolute bottom-0 h-100 rounded-lg' src={assets.group_workers2} alt="" />
+      <div className='md:w-1/2 relative flex justify-center items-center'>
+      <img className='w-100  md:absolute h-100 rounded-lg' src={assets.group_workers2} alt="" />
     
       </div>
     </div>
