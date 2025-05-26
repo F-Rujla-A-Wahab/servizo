@@ -62,6 +62,8 @@ import info_Icon from './info_Icon.png'
 import about_og from './about_og.jpg'
 import contact_us_1 from './contact_us_1.png'
 import chamalka_prfle from './chamalka_prfle.jpg'
+import menu_icon from './menu_icon.png'
+import cross_icon from './cross_icon.png'
 
 export  const assets = {
     ACtechcar,
@@ -128,6 +130,8 @@ export  const assets = {
     about_og,
     contact_us_1,
     chamalka_prfle,
+    menu_icon,
+    cross_icon,
 }
 
 export const servicesData=[
